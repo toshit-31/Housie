@@ -1,0 +1,61 @@
+html, body {
+    padding:0;
+    margin:0;
+}
+._block {
+    display:inline-block;
+    vertical-align: top;
+    margin:0 20px;
+}
+#numbers-show td {
+    border-radius:100%;
+    padding:8px;
+    width:40px;
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    font-size:18px;
+    color:grey;
+}
+#numbers-show td.drawn {
+    color:black;
+    background-color:#ddd;
+}
+#number-draw {
+    display:inline-block;
+}
+#number-draw .grid-2 {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 10px;
+    text-align:center;
+}
+#number-draw .grid-2 b {
+    font-size:20px
+}
+#ticket td {
+    border-radius:100%;
+    padding:8px;
+    width:30px;
+    height:30px;
+    text-align: center;
+    line-height:30px;
+    color:grey;
+    border:1px solid grey;
+}
+
+#ticket td.drawn {
+    background-color: #ccc;
+    border:2px solid #ffd900;
+    color:black;
+    font-weight:bold;
+}
+
+.t {
+   margin:10px 0; 
+}
+.t span {
+    color:black;
+    border-left:2px solid black;
+    padding:5px 20px;
+}

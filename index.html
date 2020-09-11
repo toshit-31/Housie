@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Housie</title>
+        <meta name= "viewport" content= "width=device-width,initla-scale=1.0" />
+        <meta charset="utf-8" />
+        <link rel= "stylesheet" type= "text/css" href= "style.css" />
+        <script src= "vue.js"></script>
+        <script src= "ticket-gen.js"></script>
+        <script src= "vue-component.js"></script>
+    </head>
+    <body>
+        <div id= "main">
+            <div class= "_block" id= "nd">
+                <number-draw></number-draw>
+            </div>
+            <div class= "_block" id= "ht">
+                <h2>Tickets</h2>
+                <h-ticket class= "_t" name= "ticket 1" id= "t1"></h-ticket>
+                <h-ticket class= "_t" name= "ticket 2" id= "t2"></h-ticket>
+                <h-ticket class= "_t" name= "ticket 3" id= "t3"></h-ticket>
+            </div>
+        </div>
+        <script>
+            new Vue({
+                el: "#nd"
+            })
+            new Vue({
+                el: "#ht"
+            })
+        </script>
+    </body>
+</html>
